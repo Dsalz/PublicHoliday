@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background-image: url("Desktop%20Copy.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+ font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: 7vw;
+}
+
+.header{
+  font-size: 4.5vw;
+  padding-top: 50px;
+  font-weight: bold;
+  text-align:center;
+}
+
+.countdownClock {
+  background-color: black;
+  color: white;
+  font-size: 5vw;
+  text-align: center;
+  margin: 8vw 16vw 1.8vw;
+  font-family: 'Lato', sans-serif;
+  padding:10px;
+  display:none;
+   box-shadow: -1px 4px 30px 3px rgba(76,81,104,.2);
+}
+
+.timer{
+  display:flex;
+}
+
+.timer-time {
+  font-size: 7vw;
+font-weight: 100;
+}
+
+.timer-label {
+  background-color: white;
+color:black;   
+margin: 3vw;
+  font-size: 2vw;
+  font-weight:bold;
+}
+
+.timer-item {
+    text-align: center;
+  flex:10%;
+}
+
+.holiday-info{
+  padding: 2vw;
+}
+
+.day-date{
+  font-size: 2vw;
+}
+
+
+
+.holidays{
+  background-color: black;
+  color: white;
+  font-size: 2.5vw;
+  text-align: center;
+  margin:0vw 16vw 40vw;
+  font-family: 'Lato', sans-serif;
+  padding: 10px;
+  display:flex;
+   box-shadow: -1px 4px 30px 3px rgba(76,81,104,.2);
+}
+
+.holidaze{
+  display:none;
+}
+
+.prevholidays {
+  flex:50%;
+  
+  cursor: pointer;
+}
+
+.futureholidays {
+  flex:50%;
+ 
+  cursor: pointer;
+}
+
+.holiday-data{
+  background-color: black;
+  color: white;
+  font-size: 2vw;
+  margin:0vw 16vw 1vw;
+  font-family: 'Lato', sans-serif;
+  display:flex;
+}
+
+.prevholidays-data {
+  flex:50%;
+  display:none;
+    padding: 2vw;
+}
+
+.futureholidays-data {
+  flex:50%;
+  display:none;
+  padding: 2vw;
+}
+
+.table {
+  padding-left:0.5vw;
+}
+
+.clicked{
+  border:0;
+  border-bottom: 0.3vw solid cyan
+}
+
+thead {
+  font-size: 2.5vw;
+}
+
+.icon {
+  width: 7vw;
+    text-decoration: underline;
+    margin-bottom: -2vw;
+    padding-bottom: -2vw;
+}
+
+.divida{
+  border:none;
+  height:0.4vw;
+}
+
+.day {
+  font-size: 3vw;
+}
+
