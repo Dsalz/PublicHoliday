@@ -6,4 +6,4 @@
 
 - I see it as a kind of morale booster when the trenches are running low that there's a holiday around the corner
 
-- Can be viewed here[http://dsalz.github.io/PublicHoliday].
+- Can be viewed here [http://dsalz.github.io/PublicHoliday].
